@@ -1,0 +1,18 @@
+<div class="image-compress">
+  <div class="container">
+    <input type="file" id="file-input" (change)="onFileSelected($event)" multiple style="display: none;" accept="image/*"/>
+    <label for="file-input" style="cursor: pointer;">
+      <i class="fas fa-cloud-upload-alt"></i>
+      &nbsp; Escoger imágenes
+    </label>
+    <div id="num-of-files">{{ numOfFiles }}</div>
+    <div class="error-message" *ngIf="errorMessage">{{ errorMessage }}</div>
+    <ul id="files-list" [ngClass]="{ 'scrollable': fileList.length > 10 }">
+      <li *ngFor="let file of fileList; let i = index" [ngClass]="{ 'selected': file.selected }" (click)="toggleSelection(i)">
+        <p>{{ file.name }}</p>
+        <p class="file-size">{{ file.size }}</p>
+      </li>
+    </ul>
+    <button *ngIf="fileList.length > 0" class="button-style upload-button" (click)="onUpload()">Comprimir</button>
+  </div>
+</div>

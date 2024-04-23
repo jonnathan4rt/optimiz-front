@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#" style="color: rgba(255, 255, 255, 0.55);">
+      <i class="fa fa-cat" style="color: #ee7402;"></i> IMG Optimiz
+    </a>
+    
+    <button (click)="toggleDisplayDivIf()" class="navbar-toggler" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div [ngClass]="isShowDivIf ? 'collapse navbar-collapse' : 'navbar-collapse'" id="navbarResponsive">
+      <ul class="navbar-nav" style="margin-left: auto;">
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="./inicio">Inicio</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="./comprimir">Comprimir</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="./convertir">Conversiones</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

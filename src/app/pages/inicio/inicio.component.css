@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.imagen {
+    width: 0px;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Esto evita que la imagen se desborde si su tamaño excede el contenedor */
+}
+
+.imagen-lynx {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.texto {
+    width: 40em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font: 400 1.5em/1.5 "Neuton";
+    color: #000;
+    display: inline-block;
+    border-width: 4px 0;
+    padding: 1.5em;
+}
+
+.texto span {
+    font: 750 2.7em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: 0.25em 0 0.325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+    background: url("/assets/img/shadow.png") repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: anim 80s linear infinite;
+}
+
+
+
+@keyframes anim {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .texto {
+        font-size: 11px;
+    }
+}
+
+/* Estilos para los servicios */
+.servicios {
+    display: flex;
+    justify-content: center; /* Centra los servicios horizontalmente */
+    flex-wrap: wrap; /* Permite que los servicios se coloquen en filas */
+    gap: 20px; /* Espacio entre los servicios */
+  }
+  
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    width: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    text-align: center;
+  }
+  
+  .description h3 {
+    margin-top: 0; 
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .description p{
+    font-size: 13px;
+  }
+
+  .service img{
+    margin-bottom: 10px;
+  }
+
+  .texto span {
+    display: inline-block;
+    margin-right: 10px; /* Esto agrega un espacio entre los elementos */
+}
+
+
+   /* Estilos para pantallas más pequeñas */
+   @media screen and (max-width: 768px) {
+    .service {
+      width: 100%; /* Un servicio por fila en pantallas más pequeñas */
+    }
+  }
+  
