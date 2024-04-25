@@ -49,9 +49,9 @@
 
   #files-list {
     list-style: none;
-  padding: 0;
-  overflow-y: auto; 
-  max-height: 300px;
+    padding: 0;
+    overflow-y: auto;
+    max-height: 300px;
   }
   
   #files-list li {
@@ -68,6 +68,35 @@
   #files-list li.selected {
     background-color: lightblue;
   }
+  
+  .file-info {
+    margin-left: auto; /* Mueve el div al final de la línea */
+    display: flex; /* Hace que los elementos dentro de .file-info se alineen horizontalmente */
+    align-items: center; /* Alinea verticalmente los elementos dentro de .file-info */
+  }
+  
+  .file-info .delete-button {
+    margin-left: 10px; /* Añade un espacio entre el tamaño y el icono */
+  }
+
+  .delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .delete-button i {
+    font-size: 15px;
+    color: #ff0000; /* Cambia el color del icono a rojo */
+  }
+  
+  .delete-button:hover i {
+    color: #cc0000; /* Cambia el color del icono a un tono más oscuro cuando se pasa el mouse */
+  }
+  
+  
+  
  
   .error-message {
     text-align: center; /* Centra el texto */

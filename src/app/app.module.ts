@@ -8,7 +8,6 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { ComprimirComponent } from './pages/comprimir/comprimir.component';
 import { ConvertirComponent } from './pages/convertir/convertir.component';
-import { FileUploadComponent } from './file-upload/file-upload.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +17,6 @@ import { FileUploadComponent } from './file-upload/file-upload.component';
     HeaderComponent,
     ComprimirComponent,
     ConvertirComponent,
-    FileUploadComponent,
   ],
   imports: [
     BrowserModule,
