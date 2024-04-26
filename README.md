@@ -5,8 +5,7 @@ Repositorio Back  end: [optimiz-back](https://github.com/jonnathan4rt/optimiz-ba
 Asegúrate de tener instalado lo siguiente:
 
 - **Node.js y npm**: [la página oficial de Node.js](https://nodejs.org/).
-- **Angular CLI**: ```bash
-  npm install -g @angular/cli
+- **Angular CLI**: `npm install -g @angular/cli`
 
 Instalación
 Clona este repositorio en tu máquina local:
