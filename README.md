@@ -6,7 +6,7 @@ Asegúrate de tener instalado lo siguiente:
 
 - **Node.js y npm**: [la página oficial de Node.js](https://nodejs.org/).
 - **Angular CLI**: `npm install -g @angular/cli`
-- **Version Angular 16**
+- **Versión Angular 16**
 
 **Clona** este repositorio en tu máquina local: 
 `git clone https://github.com/jonnathan4rt/optimiz-front.git`
