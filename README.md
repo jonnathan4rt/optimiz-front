@@ -7,15 +7,18 @@ Asegúrate de tener instalado lo siguiente:
 - **Node.js y npm**: [la página oficial de Node.js](https://nodejs.org/).
 - **Angular CLI**: `npm install -g @angular/cli`
 
-Instalación
-Clona este repositorio en tu máquina local: `git clone https://github.com/jonnathan4rt/optimiz-front.git`
-Navega al directorio del proyecto y ejecuta el siguiente comando para instalar todas las dependencias del proyecto:
+**Instalación**
+Clona este repositorio en tu máquina local: 
+`git clone https://github.com/jonnathan4rt/optimiz-front.git`
+Navega al directorio del proyecto y ejecuta el siguiente comando para instalar 
+todas las dependencias del proyecto:
 `cd optimiz-front`
 `npm install`
 
-Instala las dependencias del proyecto:
+**Instala las dependencias del proyecto:**
 `npm install`
 
+**Ejecución**
 Una vez que todas las dependencias están instaladas, puedes ejecutar el proyecto utilizando el siguiente comando:
 `ng serve`
 Este comando iniciará el servidor de desarrollo de Angular. Por defecto, el proyecto estará disponible en http://localhost:4200/
