@@ -7,8 +7,7 @@ Asegúrate de tener instalado lo siguiente:
 - **Node.js y npm**: [la página oficial de Node.js](https://nodejs.org/).
 - **Angular CLI**: `npm install -g @angular/cli`
 
-**Instalación**
-Clona este repositorio en tu máquina local: 
+**Clona** este repositorio en tu máquina local: 
 `git clone https://github.com/jonnathan4rt/optimiz-front.git`
 Navega al directorio del proyecto y ejecuta el siguiente comando para instalar 
 todas las dependencias del proyecto:
