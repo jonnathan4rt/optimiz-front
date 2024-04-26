@@ -1,6 +1,24 @@
 # Front end de la web IMG Optimiz - la hackathon del dev
 Repositorio Back  end: [optimiz-back](https://github.com/jonnathan4rt/optimiz-back)  
 
+## Requisitos previos
+Asegúrate de tener instalado lo siguiente:
+
+- **Node.js y npm (Node Package Manager)**: Si no lo tienes instalado, puedes descargarlo desde [la página oficial de Node.js](https://nodejs.org/).
+- **Angular CLI (Command Line Interface)**: Puedes instalar Angular CLI globalmente utilizando el siguiente comando:
+
+Puedes instalar Angular CLI globalmente utilizando el siguiente comando:
+npm install -g @angular/cli
+Instalación
+Clona este repositorio en tu máquina local:
+Instala las dependencias del proyecto:
+npm install
+
+Una vez que todas las dependencias están instaladas, puedes ejecutar el proyecto utilizando el siguiente comando:
+ng serve
+Este comando iniciará el servidor de desarrollo de Angular. Por defecto, el proyecto estará disponible en http://localhost:4200/
+
+
 
 [![init.png](https://i.postimg.cc/NfnCJNvP/init.png)](https://postimg.cc/JGbQt5nb)
 
